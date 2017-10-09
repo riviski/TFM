@@ -1,0 +1,135 @@
+/* TEMPLATE STYLES */
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+footer ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #fff;
+}
+footer :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #fff;
+    opacity:  1;
+}
+footer ::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #fff;
+    opacity:  1;
+}
+footer :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:    #fff;
+}
+footer ::-ms-input-placeholder { /* Microsoft Edge */
+    color:    #fff;
+}
+
+body {
+    height: 100%;
+    position: relative;
+    margin: 0;
+    padding-bottom: 140px;
+    min-height: 100%;
+    background-color: white;
+}
+
+@media(max-width:1200px) {
+    body {
+        height: 100%;
+        position: relative;
+        margin: 0;
+        padding-bottom: 198px;
+        min-height: 100%;
+    }
+}
+
+@media(max-width:767px) {
+    body {
+        height: 100%;
+        position: relative;
+        margin: 0;
+        padding-bottom: 243px;
+        min-height: 100%;
+    }
+}
+
+main {
+    padding-top: 3rem;
+
+}
+
+.widget-wrapper {
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 2rem;
+}
+
+.extra-margins {
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+
+.padding-img
+{
+    padding: 10px;
+}
+
+
+.divider-new {
+    margin-top: 0;
+}
+
+.footer {
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #f09000;
+    text-align: center;
+}
+
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    margin: 0 auto 0px;
+}
+
+.primary-color-dark {
+    background-color: #f09000 !important;
+    color: white;
+}
+
+.btn.btn-primary {
+    background-color: #f09000;
+}
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    background-color: #f09000;
+    border-color: #f09000;
+}
+
+.h-bar {
+    background: #333;
+    margin-bottom: 10px;
+    padding: 10px;
+    color: #fff;
+    font-family: Arial;
+    font-size: 12px;
+}
+
+.node {
+    border: solid 1px white;
+    line-height: 0.95;
+    overflow: hidden;
+    position: absolute;
+    border-radius: 6px;
+}
+
+.node div {
+    padding: 6px 4%;
+}
